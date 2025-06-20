@@ -2,9 +2,20 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import sys
+import psutil
 
 filename = sys.argv[1]
 fullname = "stresstests/" + filename
+
+
+# data using psutil
+load_avg = psutil.getloadavg() # average system load of processes in a runnable state
+mem_usage = psutil.virtual_memory()
+disk_partitions = psutil.disk_partitions()
+sens_temp = psutil.sensors_temperatures()
+sens_fans = psutil.sensors_fans()
+# cputimes = psutils.cpu_times()
+# cpustats = psutils.cpu_stats()
 
 #df_headers = pd.read_csv(fullname, )
 #print(df.to_string())
@@ -111,7 +122,8 @@ plt.title("Core Frequency vs. Time")
 plt.legend(loc="upper left")
 plt.xlabel("Time (s)")
 plt.ylabel("Frequency (Hz)")
-plt.show()
+#plt.show()
+plt.savefig(sys.argv[2]) # saving the plot to a png - name given as 2nd argument
 
 # graphing the time vs temperature
 
@@ -126,4 +138,6 @@ plt.title("Edge Tempertature vs. Time")
 plt.xlabel("Time (s)")
 plt.ylabel("Temperature (Fahrenheight??)")
 
-plt.show()
+#plt.show()
+plt.savefig(sys.argv[3]) # saves the plot to a png - name given as 3rd argument
+
