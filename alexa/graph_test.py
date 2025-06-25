@@ -121,9 +121,9 @@ plt.plot(time, core11, 'goldenrod', label="core 11")
 plt.title("Core Frequency vs. Time")
 plt.legend(loc="upper left")
 plt.xlabel("Time (s)")
-plt.ylabel("Frequency (Hz)")
-#plt.show()
-plt.savefig(sys.argv[2]) # saving the plot to a png - name given as 2nd argument
+plt.ylabel("Frequency (MHz... probably)")
+plt.show()
+#plt.savefig(sys.argv[2]) # saving the plot to a png - name given as 2nd argument
 
 # graphing the time vs temperature
 
@@ -136,8 +136,8 @@ for i, entry in enumerate(df_tempedge.to_numpy()):
 plt.plot(time, tempedge, 'indigo')
 plt.title("Edge Tempertature vs. Time")
 plt.xlabel("Time (s)")
-plt.ylabel("Temperature (Fahrenheight??)")
+plt.ylabel("Temperature (Celsius)")
 
-#plt.show()
-plt.savefig(sys.argv[3]) # saves the plot to a png - name given as 3rd argument
+plt.show()
+#plt.savefig(sys.argv[3]) # saves the plot to a png - name given as 3rd argument
 
