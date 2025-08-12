@@ -1,0 +1,176 @@
+{
+   "k10temp-pci-00c3":{
+      "Adapter": "PCI adapter",
+      "Tctl":{
+         "temp1_input": 34.875
+      }
+   },
+   "amdgpu-pci-0b00":{
+      "Adapter": "PCI adapter",
+      "vddgfx":{
+         "in0_input": 1.140
+      },
+      "vddnb":{
+         "in1_input": 0.799
+      },
+      "edge":{
+         "temp1_input": 31.000
+      },
+      "PPT":{
+         "power1_input": 0.007
+      }
+   },
+   "nct6796-isa-0290":{
+      "Adapter": "ISA adapter",
+      "Vcore":{
+         "in0_input": 1.136,
+         "in0_min": 0.000,
+         "in0_max": 1.744,
+         "in0_alarm": 0.000,
+         "in0_beep": 0.000
+      },
+      "in1":{
+         "in1_input": 0.984,
+         "in1_min": 0.000,
+         "in1_max": 0.000,
+         "in1_alarm": 1.000,
+         "in1_beep": 0.000
+      },
+      "AVCC":{
+         "in2_input": 3.392,
+         "in2_min": 2.976,
+         "in2_max": 3.632,
+         "in2_alarm": 0.000,
+         "in2_beep": 0.000
+      },
+      "+3.3V":{
+         "in3_input": 3.360,
+         "in3_min": 2.976,
+         "in3_max": 3.632,
+         "in3_alarm": 0.000,
+         "in3_beep": 0.000
+      },
+      "in4":{
+         "in4_input": 1.016,
+         "in4_min": 0.000,
+         "in4_max": 0.000,
+         "in4_alarm": 1.000,
+         "in4_beep": 0.000
+      },
+      "in5":{
+         "in5_input": 1.032,
+         "in5_min": 0.000,
+         "in5_max": 0.000,
+         "in5_alarm": 1.000,
+         "in5_beep": 0.000
+      },
+      "in6":{
+         "in6_input": 0.256,
+         "in6_min": 0.000,
+         "in6_max": 0.000,
+         "in6_alarm": 1.000,
+         "in6_beep": 0.000
+      },
+      "3VSB":{
+         "in7_input": 3.392,
+         "in7_min": 2.976,
+         "in7_max": 3.632,
+         "in7_alarm": 0.000,
+         "in7_beep": 0.000
+      },
+      "Vbat":{
+         "in8_input": 3.248,
+         "in8_min": 2.704,
+         "in8_max": 3.632,
+         "in8_alarm": 0.000,
+         "in8_beep": 0.000
+      },
+      "in9":{
+         "in9_input": 1.688,
+         "in9_min": 0.000,
+         "in9_max": 0.000,
+         "in9_alarm": 1.000,
+         "in9_beep": 0.000
+      },
+      "in10":{
+         "in10_input": 0.560,
+         "in10_min": 0.000,
+         "in10_max": 0.000,
+         "in10_alarm": 1.000,
+         "in10_beep": 0.000
+      },
+      "in11":{
+         "in11_input": 0.552,
+         "in11_min": 0.000,
+         "in11_max": 0.000,
+         "in11_alarm": 1.000,
+         "in11_beep": 0.000
+      },
+      "in12":{
+         "in12_input": 1.032,
+         "in12_min": 0.000,
+         "in12_max": 0.000,
+         "in12_alarm": 1.000,
+         "in12_beep": 0.000
+      },
+      "in13":{
+         "in13_input": 0.992,
+         "in13_min": 0.000,
+         "in13_max": 0.000,
+         "in13_alarm": 1.000,
+         "in13_beep": 0.000
+      },
+      "in14":{
+         "in14_input": 1.016,
+         "in14_min": 0.000,
+         "in14_max": 0.000,
+         "in14_alarm": 1.000,
+         "in14_beep": 0.000
+      },
+      "fan1":{
+         "fan1_input": 0.000,
+         "fan1_min": 0.000,
+         "fan1_alarm": 0.000,
+         "fan1_beep": 0.000,
+         "fan1_pulses": 2.000
+      },
+      "fan2":{
+         "fan2_input": 583.000,
+         "fan2_min": 0.000,
+         "fan2_alarm": 0.000,
+         "fan2_beep": 0.000,
+         "fan2_pulses": 2.000
+      },
+      "fan3":{
+         "fan3_input": 0.000,
+         "fan3_min": 0.000,
+         "fan3_alarm": 0.000,
+         "fan3_beep": 0.000,
+         "fan3_pulses": 2.000
+      },
+      "fan6":{
+         "fan6_input": 0.000,
+         "fan6_min": 0.000,
+         "fan6_alarm": 0.000,
+         "fan6_pulses": 2.000
+      },
+      "fan7":{
+         "fan7_input": 0.000,
+         "fan7_min": 0.000,
+         "fan7_pulses": 2.000
+      },
+      "SYSTIN":{
+         "temp1_input": 27.000,
+         "temp1_max": 80.000,
+         "temp1_max_hyst": 75.000,
+         "temp1_alarm": 0.000,
+         "temp1_type": 4.000,
+         "temp1_offset": 0.000,
+         "temp1_beep": 0.000
+      },
+      "CPUTIN":{
+         "temp2_input": 26.000,
+         "temp2_max": 80.000,
+         "temp2_max_hyst": 75.000,
+         "temp2_alarm": 0.000,
+         "temp2_type
